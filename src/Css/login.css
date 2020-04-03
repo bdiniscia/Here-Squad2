@@ -1,0 +1,82 @@
+
+  /* Login & registro */
+  .containerWelcome{
+    max-width: 500px;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titleWelcome {
+    font-family: 'Open Sans', sans-serif;
+    color: #41729F;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .spanWelcome {
+    font-family: 'Bad Script', cursive;
+  }
+
+  .divTextWelcome {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .btnWelcome {
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+  }
+
+  #crearCuenta {
+    background: #D09683;
+    border-radius: 6px;
+    color: #fff
+  }
+
+  #iniciarSesion {
+    border: 2px solid #D09683;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #D09683;
+    background-color: #E8F2F6;
+  }
+
+
+  /* .logo{
+    width:79%;
+  }
+  h5 {
+    margin-top: 15%;
+    color: rgba(10, 98, 180, 0.712);
+    width: 92%;    
+    text-align: center;
+    margin-left: -4%;
+  }
+  #crearCuenta{
+    margin-top: 5%;
+    width: 64%;
+    background-color:rgba(194, 104, 19, 0.76);
+    color:white;
+    margin-left: 8%;
+    margin-top: 11%;
+    border-color:rgba(194, 104, 19, 0.822);
+  }
+  #iniciarSesion{
+    margin-left: 8%;
+    width: 64%;   
+    margin-top: 5%;   
+    border-color: rgba(194, 104, 19, 0.822);   
+    color: rgba(194, 104, 19, 0.822);
+    
+  }
+  .botones {
+    margin-left: 21%;
+    margin-top: 11%;
+  } */
+
+

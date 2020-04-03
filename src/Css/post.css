@@ -1,0 +1,96 @@
+.headerCommunity{
+  background: linear-gradient(194.07deg, #CDDDF4 3.26%, #CDBAFA 100%);;
+  text-align: center;
+  width:100%;
+  padding: 0.7em 0 0.5em 0;
+}
+
+.headerText {
+  font-family: 'Sen', sans-serif;
+  color: #41729F;
+  text-align: center;
+}
+.textCom{
+  font-size: 25px;
+  padding-bottom: 0.5em;
+  margin-bottom: 0;
+  padding-top: 0.3em;
+}
+
+.subHeader {
+  font-size: 18px;
+}
+
+.containerTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textAreaPost {
+  background: linear-gradient(202.46deg, #CDDDF4 3.26%, #CDBAFA 100%);
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 0.5em;
+  resize: none;
+  height: 5.5em;
+}
+
+.publicarPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.buttonSend {
+  position: relative;
+  bottom: 30px;
+  left: 90%;
+}
+.divOfSend {
+  display: flex;
+  width: 75%;
+}
+
+.postArea {
+  width: 80%;
+  background: linear-gradient(204.57deg, #CDDDF4 3.26%, #CDBAFA 100%);
+  border-radius: 15px;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.divPost {
+  width: 80%;
+}
+
+.containerPublic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow:scroll;
+  padding-bottom: 3em;
+}
+
+.textPost {
+  font-family: 'Sen', sans-serif;
+  margin-bottom: 0;
+}
+
+.textUser {
+  font-weight: 700;
+}
+
+.contentCommunity {
+  width: 100%;
+}
+
+
+
+@media (min-width: 750px) {
+  .contentCommunity {
+    width: 60%;
+  }
+}

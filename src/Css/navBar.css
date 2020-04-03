@@ -1,0 +1,78 @@
+.divFromRouter {
+  width: 100%;
+}
+
+.containerNavBar {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #E8F2F6;
+}
+
+.topBar {
+  height: 3em;
+  width: 100%;
+  background-color: #E8F2F6;
+  display: flex; 
+  justify-content: center;
+}
+
+.divIconsTopBar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center
+}
+
+.buttonsTopBar {
+  height: 1.5em;
+}
+
+.iconBottomBar {
+  height: 1.8em;
+}
+
+.modal-dialog {
+  display: flex !important;
+  justify-content: flex-end !important;
+  position: absolute;
+  right: 1.5em;
+}
+
+.modal-content{
+  background: linear-gradient(204.57deg, #CDDDF4 3.26%, #CDBAFA 100%);
+  width: 110% !important;
+  display: flex;
+  flex-direction: column;
+}
+.btn{
+  color:#41729F !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+.modal-header{
+  padding: 0.3em !important;
+}
+
+.modal-body {
+  padding: 0.3em !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.close{
+  color:#41729F;
+  padding: 0rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.btnSaved {
+  text-align: left;
+}

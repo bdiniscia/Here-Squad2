@@ -1,0 +1,135 @@
+@import url(//fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+.divRouting {
+    position: fixed;
+    z-index:50;
+    background-color: #E8F2F6;
+    display: flex;
+    flex-direction: column;
+    top: 4em;
+    right: 2em;
+    left: 2em;
+    border-radius: 3px;
+}
+
+.inputRouting {
+    padding: 0.4em;
+    margin: 0.1em 0.5em 0.1em 0.5em;
+    background-color: #E8F2F6;
+    border: none;
+    font-family: 'Open Sans Hebrew', sans-serif;
+    font-size: 15px;
+}
+
+.inputStarting {
+    background: url(../img/Navigation.png) no-repeat scroll 7px;
+    padding-left:40px;
+}
+
+.inputStarting:focus {
+    color: #41729F;
+}
+
+.inputEnding {
+    background: url(../img/Location.png) no-repeat scroll 7px;
+    padding-left:40px;
+}
+
+.buttonRoute {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #D09683;
+    padding: 0.25em;
+    border-radius: 100%;
+    align-self: flex-end;
+    margin: 0 0.5em 0.3em 0;
+}
+
+.list {
+    position: relative;
+    list-style: none;
+    z-index: 99;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+.elementAutosuggest {
+    border-bottom: #41729F 1px solid;
+    padding: 0.2em 0.5em;
+}
+
+.divRadioAndButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radioCircle {
+ background: #41729F;
+}
+
+.imageRadioButton {
+    margin-left: 0.1em;
+    width: 1.3em;
+}
+
+.radioBtn {
+    margin: 0 0.4em 0 0.4em;
+}
+
+.containerRadioBtn {
+    margin-left: 1em;
+}
+
+.svg {
+	height: 1.3em;
+	width: 1.3em;
+	margin: 0.5em;
+}
+
+#radios label {
+	position: relative;
+}
+
+input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+}
+
+input[type="radio"] + .svg {
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+input + .svg {
+	cursor: pointer;
+}
+
+input[class="super-happy"]:hover + .svg,
+input[class="super-happy"]:checked + .svg,
+input[class="super-happy"]:focus + .svg {
+	filter: invert(41%) sepia(76%) saturate(372%) hue-rotate(167deg) brightness(85%) contrast(86%);;
+}
+
+input[class="happy"]:hover + .svg,
+input[class="happy"]:checked + .svg,
+input[class="happy"]:focus + .svg {
+	filter: invert(41%) sepia(76%) saturate(372%) hue-rotate(167deg) brightness(85%) contrast(86%);;
+}
+
+input[class="neutral"]:hover + .svg,
+input[class="neutral"]:checked + .svg,
+input[class="neutral"]:focus + .svg {
+	filter: invert(41%) sepia(76%) saturate(372%) hue-rotate(167deg) brightness(85%) contrast(86%);;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+@media (min-width: 800px) {
+    .divRouting {
+        width: 50%;
+        left: 25%;
+    }
+}
