@@ -91,7 +91,7 @@ class LoginEmail extends React.Component {
             value={this.state.password} onChange={this.handlePassword} />
           <button type="submit" className="btnSignUp" id="registrar"
             onClick={this.singUpNewUser}>Registrarme</button>
-          <Link to="/App" ><p className="backToLogIn"onClick={this.backLog}>¿Ya tienes cuenta? Inicia sesión</p></Link>
+          <Link to="/" ><p className="backToLogIn"onClick={this.backLog}>¿Ya tienes cuenta? Inicia sesión</p></Link>
         </div>
 
         </Router>
